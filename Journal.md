@@ -9,3 +9,6 @@ theyve also got a camera version not sure how that works but ye
 https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/#for-seeed-studio-xiao-esp32-s3-sense-camera
 also i can then ditch the complicated ah lipo charging module , even though its completed i highly doubt wether it works or not as its my first time doing it so wooo.
 ![alt text](images/image.png) -23:32
+ive added the seeed s3 and now connecting it to the the stuff that was previously connected to the c6 mini. apparently its not very compatible with the micro sd card but its not as bad as the c6's issue with the cameras so its fine.
+time to sleep asw so gn<img width="478" height="311" alt="image" src="https://github.com/user-attachments/assets/1cd56f33-fd9f-43db-a9fc-703612d9423a" />
+
