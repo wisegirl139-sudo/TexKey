@@ -33,3 +33,9 @@ anywyas goodnight -3:25
 after adding gnd to leds
 ![alt text](image-6.png)
 -3:51
+2O:1O -START DAY 3
+HIYA , just added boxes and labelled compnents, gonna add footprints and do do the pcb now.
+![ ft](image-7.png) adding footprints, decided on o6o3 rather than the o8o5 , not really much of a difference tbh except the o.o2" size differnce so were goinf with the o6o3 . the battery circuit does reccomend the o8o5 for the capacitators bc the 1o uf is slightly cheaper and easier to fine but bc were using the o6o3 for everyhthing im changing it to o6o3.![alt text](image-8.png) - reccomended ( the main componets are used as described for the most part )-21:43 (-1 hr break lowk)
+![ pcb](image-9.png) got the layout right and the height is 3.5 cm which is the perfect pocket size
+width is at 6 cm which is 2 cm more than id like but its fine , still a good size ![alt text](image-10.png)-22:2o
+stop for now bc ts lowk pmo-23:4o
