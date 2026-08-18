@@ -19,3 +19,11 @@ https://thepihut.com/products/adafruit-ov5640-camera-breakout-72-degree-lens-wit
 its expensive lowk so 1 is good , 1 is fine -23 smth
 ![alt text](image-1.png) okay so ive spent a long time looking through the data sheet and stuff on github and also day dreaming abt the finished product , so heres what we're gonna do , the cads gonna be a cylinder but the interior is lowk like a chimney( youll see) so imma finish schematic tn fs trust , anyways basically we're not ditching the power module but we're gonna wire it to the xiao so the usb port is the same . no need for 2 innit. also introducing 2 buttons , an on off one and one to take pictures that if you keep pressed it takes multiple. which the person can then stitch together 
 https://github.com/adafruit/Adafruit-OV5640-Camera-Breakout-PCB/tree/main    - github for camera featuring schematic - 1:54 am
+switches locked and loaded- 2:o6
+![alt text](image-3.png)
+d16 is for on off d17 is for amt of pics
+![alt text](image-4.png)
+leds connected , gonna remove rotary bc its not really needed now doing last min checks before moving to pcb 2:15
+im back and ive just spent an hour learning about pull ups in depth (not the excercise)
+and also implemented them into the reset , power down , sda and scl . According to the numerous number of google drop down reccomended questions (i cant pin point where i read it lmao) reset needs to be low throughout and pwdown despite its name is the opposite and is an active high pin . also 4.7 k ohm on sda and scl for line stability , and to prevent any miscommunications between the seeed and the camera
+![alt text](image-5.png)
