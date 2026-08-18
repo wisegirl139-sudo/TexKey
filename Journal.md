@@ -9,3 +9,14 @@ theyve also got a camera version not sure how that works but ye
 https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/#for-seeed-studio-xiao-esp32-s3-sense-camera
 also i can then ditch the complicated ah lipo charging module , even though its completed i highly doubt wether it works or not as its my first time doing it so wooo.
 ![alt text](images/image.png) -23:32
+ ive added the seeed s3 and now connecting it to the the stuff that was previously connected to the c6 mini. apparently its not very compatible with the micro sd card but its not as bad as the c6's issue with the cameras so its fine. time to sleep asw so gn
+ ![alt text](image-2.png) -12:O5
+Day 3 - 23:38 start 
+okay i am acc really gonna lock innnnn today , so first on the agenda is finding out the ov564O's schematic or the pin order. -23:39
+so ive realised i should never research late at night, omdssssss so the name of the seeed stuck with me , and beacuse i was in a whole another world i mixed it up with the esp p4. idk about yall but s3 and p4 are way too similar in terms of numbers and letters , and genuinely i am concerned about the fact that i didnt think to check after adding everything and have only now realised after finding a great camera module but it needs like 9 pins which would be tm and the xiao doesnt have that many pins , so were stuck at one . BUT GOSH THE FUMBLE.
+anyways heres the camera module i REALLLLLLLYYYYY like 
+https://thepihut.com/products/adafruit-ov5640-camera-breakout-72-degree-lens-with-autofocus?srsltid=AfmBOopZrM70GV_3OYB7xb9iceAZI2vZ1bu50OTEcgcqH__8C93ymp72 its so peak fam, or should i say cam.
+its expensive lowk so 1 is good , 1 is fine -23 smth
+![alt text](image-1.png) okay so ive spent a long time looking through the data sheet and stuff on github and also day dreaming abt the finished product , so heres what we're gonna do , the cads gonna be a cylinder but the interior is lowk like a chimney( youll see) so imma finish schematic tn fs trust , anyways basically we're not ditching the power module but we're gonna wire it to the xiao so the usb port is the same . no need for 2 innit. also introducing 2 buttons , an on off one and one to take pictures that if you keep pressed it takes multiple. which the person can then stitch together 
+https://github.com/adafruit/Adafruit-OV5640-Camera-Breakout-PCB/tree/main    - github for camera featuring schematic - 1:54 am
+
